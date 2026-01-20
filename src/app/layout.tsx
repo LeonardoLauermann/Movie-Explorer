@@ -15,7 +15,7 @@ export default async function RootLayout({children}: {children: React.ReactNode}
   
 return (
   <html lang='pt-BR'>
-    <body>
+    <body className='custom-scrollbar'>
       <QueryProvider>
         <NavigationProvider>
           <div className='min-h-screen bg-[#191919]'>

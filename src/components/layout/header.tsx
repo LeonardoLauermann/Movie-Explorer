@@ -23,7 +23,7 @@ export function Header() {
         </Suspense>
       </div>
 
-      <div className='relative w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden border-2 border-transparent hover:border-green-500 transition-all cursor-pointer'>
+      <div className='relative w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden border-2 border-transparent hover:border-white transition-all cursor-pointer'>
         <Image
           src='/kakashi.svg'
           alt='Logo de Usuário'

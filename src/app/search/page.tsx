@@ -21,9 +21,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
     );
 
     results = data.results ?? [];
-  }
-
-  if (genre) {
+  } else if (genre) {
     const data = await fetchClient<PaginatedResponse<Movie>>(
       '/discover/movie',
       {
