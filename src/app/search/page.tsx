@@ -41,7 +41,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
   return (
     <div className='p-4 md:p-0'>
-      <h1 className='text-2xl font-bold mb-6'>Resultados</h1>
+      <h1 className='text-2xl text-[#E8E8E8] font-bold mb-6'>Resultados</h1>
 
       {results.length === 0 ? (
         <p className='text-gray-400 font-medium'>
