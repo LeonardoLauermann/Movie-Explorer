@@ -1,6 +1,6 @@
 export function BannerCardSkeleton() {
     return (
-        <div className='relative min-w-[85vw] md:min-w-[70vw] lg:min-w-[60vw]'>
+        <div className='relative min-w-[70vw] md:min-w-[46vw]'>
             <div className='relative aspect-video max-h-75 min-h-60 w-full overflow-hidden rounded-3xl bg-white/10 animate-pulse'>
                 <div className='absolute inset-0 bg-linear-to-r from-black/40 via-black/20 to-transparent' />
                 <div className='absolute bottom-6 right-3 md:right-6'>
