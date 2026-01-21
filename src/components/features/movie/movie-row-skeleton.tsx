@@ -7,7 +7,7 @@ export function MovieRowSkeleton() {
         <div className='h-7 w-48 bg-[#2a2a2a] rounded animate-pulse' />
       </div>
       <div className='overflow-hidden px-4 md:px-0'>
-        <div className='flex gap-4'>
+        <div className='flex gap-7'>
           {[...Array(6)].map((_, i) => (
             <div
               key={i}

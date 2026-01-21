@@ -14,7 +14,7 @@ export function BannerCard({ item }: BannerCardProps) {
     const basePath = isMovie ? 'movies' : 'series';
 
     return (
-        <div className='relative min-w-[70vw] md:min-w-[50vw]'>
+        <div className='relative min-w-[70vw] md:min-w-[46vw]'>
             <div className='relative aspect-video max-h-75 min-h-60 w-full overflow-hidden rounded-3xl'>
                 <Image
                     src={imageUrl(item.backdrop_path)}

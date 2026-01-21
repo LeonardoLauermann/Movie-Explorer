@@ -23,7 +23,7 @@ export function MovieRow({title, items}: MovieRowProps) {
       <div
         className='overflow-hidden cursor-grab active:cursor-grabbing'
         ref={emblaRef}>
-        <div className='flex gap-4 px-4 md:px-0'>
+        <div className='flex gap-7 px-4 md:px-0'>
           {items.map(item => (
             <div
               key={item.id}
