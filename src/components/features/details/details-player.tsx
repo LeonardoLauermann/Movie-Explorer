@@ -16,7 +16,7 @@ export function DetailsPlayer({ alt, backdrop_path }: DetailsPlayerProps) {
                 alt={alt}
                 fill
                 priority
-                className='object-cover transition-transform duration-700 group-hover:scale-105'
+                className='object-fill transition-transform duration-700 group-hover:scale-105'
             />
             <div className='absolute inset-0 bg-black/30 flex flex-col items-center justify-center transition-colors group-hover:bg-black/20'>
                 <button className='w-16 h-16 md:w-24 md:h-24 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/30 shadow-xl hover:cursor-pointer'>

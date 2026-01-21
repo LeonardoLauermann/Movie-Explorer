@@ -21,7 +21,7 @@ export function BannerCard({ item }: BannerCardProps) {
                     alt={title}
                     fill
                     priority
-                    className='object-cover'
+                    className='object-fill'
                 />
 
                 <div className='absolute inset-0 bg-linear-to-r from-black/70 via-black/30 to-transparent' />
