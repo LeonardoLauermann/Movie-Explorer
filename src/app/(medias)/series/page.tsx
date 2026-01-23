@@ -3,7 +3,7 @@ import {fetchClient} from '@/lib/api';
 import {PaginatedResponse, TvShow} from '@/types/tmdb';
 
 export const metadata = {
-  title: "MBCPlay - Series"
+  title: "Play - Series"
 };
 
 export default async function Page() {

@@ -42,7 +42,7 @@ export function Sidebar({ genres }: SidebarProps) {
           <Link href={"/"}>
             <Image
               src='/mbcplay.svg'
-              alt='MBCPLAY'
+              alt='PLAY'
               width={106}
               height={36}
             />

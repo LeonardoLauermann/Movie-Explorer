@@ -7,7 +7,7 @@ interface SearchPageProps {
 }
 
 export const metadata = {
-  title: "MBCPlay - Pesquisa"
+  title: "Play - Pesquisa"
 };
 
 export default async function SearchPage({ searchParams }: SearchPageProps) {

@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: TvShowDetailsProps) {
   const series = await getTvShowDetails(id);
 
   return {
-    title: `MBCPlay - ${series.name}`,
+    title: `Play - ${series.name}`,
   };
 }
 

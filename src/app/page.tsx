@@ -4,7 +4,7 @@ import { fetchClient } from '@/lib/api';
 import { Movie, PaginatedResponse } from '@/types/tmdb';
 
 export const metadata = {
-  title: "MBCPlay - Explorar"
+  title: "Play - Explorar"
 };
 
 export default async function Page() {

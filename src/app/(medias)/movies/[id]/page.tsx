@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: MovieDetailsProps) {
   const movie = await getMovieDetails(id);
 
   return {
-    title: `MBCPlay - ${movie.title}`,
+    title: `Play - ${movie.title}`,
   };
 }
 
